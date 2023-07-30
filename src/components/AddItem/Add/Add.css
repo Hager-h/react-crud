@@ -1,0 +1,22 @@
+form{padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+
+}
+ input{  width :80%;
+  padding: 14px;
+  border: none;
+  outline: none;
+  color:rgb(253, 253, 253);
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+::placeholder{
+  color: wheat
+}
+
