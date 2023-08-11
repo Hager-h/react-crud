@@ -68,12 +68,11 @@ this.setState({
     })
     return (
       <section className="APP">
-        <h1>Add Course</h1>
+        <h1>Add course</h1>
       <CourseForm changeFun={this.changeFun} addCourse={this.addCourse} current={this.state.current} />
       <div className="flex">
 
     {courseList.length?courseList:<p className='text'>No Courses To Show</p>} 
-    </div> 
 
 </section>
     )

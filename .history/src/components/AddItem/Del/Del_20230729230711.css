@@ -115,7 +115,7 @@ background-color: green;
 
 
 
-  @media(max-width:570px){
+  @media(max-width:470px){
 
 .btns{
   justify-content:center;
@@ -126,11 +126,4 @@ background-color: green;
 justify-content:center
 
     }
-  }
-  @media(max-width:280px){
-
-    .btns button {
-      width: 121px;
-      
-  } 
   }

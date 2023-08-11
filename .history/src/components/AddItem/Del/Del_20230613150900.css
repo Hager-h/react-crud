@@ -1,11 +1,9 @@
-#form {
-  display: flex;
-
-  background: rgb(166 101 123);
-  justify-content: center;
-  border:1px solid black;
-  margin:10px 0px
-}
+#form{
+padding: 20px;
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    background: #48399b;}
 input{
   padding: 10px;
   border: none;
@@ -15,7 +13,7 @@ input{
 #inp {
   color:rgb(253, 253, 253);
   background-color: black;
-  width: 50%;
+  margin-right: 50px;width: 50%;
 }
 #form button{
   width:110px
@@ -71,14 +69,10 @@ button:hover{
   text-transform: capitalize;
   padding: 9px 20px;
   margin-bottom: 11px;
-  flex-wrap: wrap;
-  
 }
 .btns{
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  gap:12px 0px;
 }
 .btns button{
 background-color: black;
@@ -109,28 +103,3 @@ background-color: green;
 }
 #sub:hover {
   background-color: green;}
-
-
-
-
-
-
-  @media(max-width:570px){
-
-.btns{
-  justify-content:center;
-  margin-top:15px;
-}
-
-    .format{
-justify-content:center
-
-    }
-  }
-  @media(max-width:280px){
-
-    .btns button {
-      width: 121px;
-      
-  } 
-  }

@@ -4,7 +4,7 @@
   background: rgb(166 101 123);
   justify-content: center;
   border:1px solid black;
-  margin:10px 0px
+  margin:12px 0px
 }
 input{
   padding: 10px;
@@ -115,7 +115,7 @@ background-color: green;
 
 
 
-  @media(max-width:570px){
+  @media(max-width:470px){
 
 .btns{
   justify-content:center;
@@ -126,11 +126,4 @@ background-color: green;
 justify-content:center
 
     }
-  }
-  @media(max-width:280px){
-
-    .btns button {
-      width: 121px;
-      
-  } 
   }
